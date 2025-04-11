@@ -1,7 +1,7 @@
 export default function Job({company, title, startDate, endDate, bullets, description}: Job) {
 	return (
 		<div key={company} className="mt-8">
-			<div className="flex justify-between text-xl font-medium not-prose">
+			<div className="flex lg:flex-row flex-col justify-between text-lg lg:text-xl font-medium not-prose">
 				<h3>
 					{title} &ndash; {company}
 				</h3>

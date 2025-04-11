@@ -11,9 +11,9 @@ const summary = `I'm the engineer people Slack when something's weird, broken, o
 export default function Home() {
 	return (
 		<main>
-			<div className="container mx-auto px-4 py-12 md:py-20 md:max-w-2/3">
-				<div className="flex flex-col md:flex-row md:justify-between gap-10 md:gap-20 items-center md:items-start">
-					<div className="sticky top-12 md:top-20">
+			<div className="container mx-auto px-4 py-12 lg:py-20">
+				<div className="flex flex-col lg:flex-row lg:justify-around items-center lg:items-start">
+					<div className="lg:sticky top-12 lg:top-20">
 						<div className="min-w-48 min-h-48">
 							<Image
 								src="/headshot.jpg"
@@ -64,9 +64,9 @@ export default function Home() {
 						</div>
 					</div>
 					<div>
-						<section>
+						<section className="mt-7 lg:mt-0">
 							<h1 className="text-4xl font-medium font-serif">{headline}</h1>
-							<p className="mt-4 text-lg md:pr-24 text-left"> {summary} </p>
+							<p className="mt-4 text-lg lg:pr-24 text-left prose"> {summary} </p>
 						</section>
 						<WorkExperience />
 						<section className="mt-10 prose">
