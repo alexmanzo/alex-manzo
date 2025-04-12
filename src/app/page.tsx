@@ -66,23 +66,23 @@ export default function Home() {
 					<div>
 						<section className="mt-7 lg:mt-0">
 							<h1 className="text-4xl font-medium font-serif">{headline}</h1>
-							<p className="mt-4 text-lg lg:pr-24 text-left prose"> {summary} </p>
+							<p className="mt-4 text-lg lg:pr-24 text-left prose dark:text-slate-1"> {summary} </p>
 						</section>
 						<WorkExperience />
-						<section className="mt-10 prose">
-							<h2 className="font-serif font-medium pb-2 border-b-4 border-cyan-11 dark:border-cyan-7">
+						<section className="mt-10 prose dark:text-slate-1">
+							<h2 className="font-serif font-medium pb-2 border-b-4 border-cyan-11 dark:border-cyan-7 dark:text-slate-1">
 								Skills
 							</h2>
 							<p>
-								<strong>Proficient:</strong> TypeScript, JavaScript, Vue, React, NodeJS, HTML, CSS,
+								<strong className="dark:text-slate-1">Proficient:</strong> TypeScript, JavaScript, Vue, React, NodeJS, HTML, CSS,
 								Playwright, Vite, Vitest, Tailwind, Sass
 							</p>
 							<p>
-								<strong>Familiar:</strong> AWS (Cloudfront, CloudPipeline, WAF), Svelte
+								<strong className="dark:text-slate-1">Familiar:</strong> AWS (Cloudfront, CloudPipeline, WAF), Svelte
 							</p>
 						</section>
-						<section className="mt-10 prose">
-							<h2 className="font-serif font-medium pb-2 border-b-4 border-cyan-11 dark:border-cyan-7">
+						<section className="mt-10 prose dark:text-slate-1">
+							<h2 className="font-serif font-medium pb-2 border-b-4 border-cyan-11 dark:border-cyan-7 dark:text-slate-1">
 								Education
 							</h2>
 							<div className="not-prose">

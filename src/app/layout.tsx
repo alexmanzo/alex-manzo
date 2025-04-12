@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.variable} ${robotoSlab.variable} antialiased bg-slate-app text-slate-normal`}
+        className={`${roboto.variable} ${robotoSlab.variable} antialiased bg-slate-app text-slate-12 dark:text-slate-1`}
       >
         {children}
       </body>

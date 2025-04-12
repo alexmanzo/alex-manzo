@@ -43,7 +43,7 @@ const experience: Array<Job> = [
 
 export default function WorkExperience() {
 	return (
-		<section className="mt-10 prose">
+		<section className="mt-10 prose dark:text-slate-1">
 			<h2 className="font-serif font-medium pb-2 border-b-4 border-cyan-11 dark:border-cyan-7">Experience</h2>
 			{experience.map((job, index) => (
         <Job key={index} {...job}/>
