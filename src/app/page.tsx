@@ -78,7 +78,7 @@ export default function Home() {
 								Playwright, Vite, Vitest, Tailwind, Sass
 							</p>
 							<p>
-								<strong className="dark:text-slate-1">Familiar:</strong> AWS (Cloudfront, CloudPipeline, WAF), Svelte
+								<strong className="dark:text-slate-1">Familiar:</strong> AWS (Cloudfront, CodePipeline, WAF), Svelte
 							</p>
 						</section>
 						<section className="mt-10 prose dark:text-slate-1">
